@@ -17,7 +17,7 @@ public class CokeCooler {
         numCoke = numCoke + amt;
     }
 
-    public void cokeCount(){
-        System.out.println(numCoke);
+    public int cokeCount(){
+        return numCoke;
     }
 }
