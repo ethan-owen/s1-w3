@@ -10,11 +10,11 @@ public class CokeCooler {
     }
 
     public void drink(int amt){
-        numCoke =- amt;
+        numCoke = numCoke - amt;
     }
 
     public void refill(int amt){
-        numCoke =+ amt;
+        numCoke = numCoke + amt;
     }
 
     public void cokeCount(){
