@@ -11,7 +11,7 @@ public class CandyJarMain {
 
         c2.eatCandy(119);
         c1.refillCandy(64);
-        
+
         c1.printState();
         c2.printState();
     }
