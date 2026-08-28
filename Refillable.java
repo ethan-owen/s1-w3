@@ -5,16 +5,16 @@ public class Refillable {
         amount = 10;
     }
 
-    public Refillable(int amt){
-        amount = amt;
+    public Refillable(int a){
+        amount = a;
     }
 
-    public void addTo(int amt){
-        amount += amt;
+    public void addTo(int a){
+        amount += a;
     }
 
-    public void useUp(int amt){
-        amount -= amt;
+    public void useUp(int a){
+        amount -= a;
     }
 
     public int currentAmt(){
